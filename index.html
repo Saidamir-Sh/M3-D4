@@ -7,15 +7,18 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
-    <title>BookShop</title>
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    <!-- StyleSheet -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Bookland</title>
   </head>
   <body>
     <!-- Image and text -->
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-          <img src="https://i.pinimg.com/200x150/9a/39/a3/9a39a344c61cb7a99517549b5acc8df7.jpg" width="70" height="70" class="d-inline-block align-top" alt="">
-          Bootstrap
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./logo.png" width="70" height="70" class="d-inline-block align-top" alt="">
+            <h3>Bookland</h3>
         </a>
     </nav>
     <div class="jumbotron">
@@ -25,10 +28,21 @@
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       </div>
-      <div class="mx-auto" style="width: 90%;">
+      <!-- BOOKS CONTAINER -->
+      <div class="mx-auto" style="width: 95%;">
           <div class="row book-row justify-content-between">
               
           </div>
+      </div>
+      <!-- BOOK CART -->
+      <div class="cart-container">
+        <div class="cart-header mx-auto d-flex justify-content-between align-items-center" style="width: 95%; border-bottom: 1px solid gray;">
+            <img class="ml-1" style="width: 4em;" src="./logo.png" alt="Logo">
+            <i class="bi bi-x-circle close-btn" style="font-size: 1.2rem;"></i>
+        </div>
+        <div class="single-item">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/811+RvEMBML.jpg" alt="">
+        </div>
       </div>
 
 
