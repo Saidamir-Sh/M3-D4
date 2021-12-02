@@ -1,23 +1,23 @@
 .cart-container {
-    width: 30%;
+    width: 25%;
     height: 100vh;
     background-color: beige;
     position: fixed;
     top: 0;
     right: 0;
-    /* display: none; */
-/* }
+    display: none; 
+ }
 .cart-hide {
     position: fixed;
     top: 0;
     right: -100%;
-    transition: .9s ease-in-out;
+    transition: .5s ease-in-out;
     display: block;
 }
 .cart-show {
     position: fixed;
     top: 0;
     right: 0;
-    transition: .9s ease-in-out;
+    transition: .5s ease-in-out;
     display: block;
-} */
+}

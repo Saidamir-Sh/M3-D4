@@ -21,13 +21,15 @@
             <h3>Bookland</h3>
         </a>
     </nav>
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </div>
+    <div class="container-100">
+        <div class="row home-page mx-auto d-flex align-items-center-center" style="width: 90%;">
+            <img style="width: 30em;" src="./jumbotron-pic.png">
+            <div>
+                <h1>Featured Books of the <span>December</span></h1>
+                <a class="btn btn-primary">See More</a>
+            </div>
+        </div>
+    </div>
       <!-- BOOKS CONTAINER -->
       <div class="mx-auto" style="width: 95%;">
           <div class="row book-row justify-content-between">
@@ -40,8 +42,16 @@
             <img class="ml-1" style="width: 4em;" src="./logo.png" alt="Logo">
             <i class="bi bi-x-circle close-btn" style="font-size: 1.2rem;"></i>
         </div>
-        <div class="single-item">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/811+RvEMBML.jpg" alt="">
+        <div class="single-item mx-auto my-3 d-flex justify-content-between align-items-center" style="width: 85%;">
+                <img style="width: 5em;" src="https://images-na.ssl-images-amazon.com/images/I/811+RvEMBML.jpg">
+                <div class="item-info">
+                    <h5>Zero to One</h5>
+                    <small>Authors: Peter Thiel, Blake Masters</small>
+                    <p class="font-weight-bold">$15.00</p>
+                </div>
+                <div class="item-remove">
+                    <button class="btn btn-danger">Remove</button>
+                </div>
         </div>
       </div>
 
